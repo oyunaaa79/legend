@@ -1,0 +1,35 @@
+General 
+
+Request URL: http://sisi.cv.edu/           /*сервер лүү хүсэлт явуулсан өгөгдлийн нөөц байгаа зам, хаяг, байршын хуурмаг домайн нэр*/
+Request Method: GET                       /*Хүсэлтийн төрөл*/
+Status Code: 200 OK                       /*Зөвшөөрөл өгсөн буюу хүсэлтийг хүлээж авсан*/
+Remote Address: 127.0.0.1:80              /* Хүсэлт явуулсан файлын зам, Хаяг*/
+Referrer Policy: no-referrer-when-downgrade  
+
+Request header
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8    
+/*Хүсэлтийг хүлээж авах файл, өгөгдлийн төрлүүд*/
+
+Accept-Encoding: gzip, deflate    /*browser серверт ямар төрлийн кодчлол хэрэглэхийг зааж өгдөг.*/
+Accept-Language: en-US,en;q=0.9   /*Хүлээж авах, тохиргоотой байгаа үндсэн хэл*/
+Connection: keep-alive            /*Одоогийн дамжуулсан мэдээллээ авчхаад сүлжээтэй холбоотой байх эсэхийг хэлнэ*/
+Host: sisi.cv.edu                 /*host хаяг*/
+Upgrade-Insecure-Requests: 1      /*уг хүсэлт нь сервер лүү аюултай хүсэлт явж буй эсэхийг хэлнэ*/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36
+
+/*Хүсэлт явуулж болох веб хөтчүүд*/
+
+
+Response header
+
+Accept-Ranges: bytes  /*зөвшөөрлийн хамрах хүрээ*/
+Connection: Keep-Alive  /**/
+Content-Length: 8738  /*илгээсэн агуулгын урт*/
+Content-Type: text/html /*Илгээсэн хүсэлтийн өгөгдлийн төрөл*/
+Date: Tue, 26 Feb 2019 04:56:01 GMT
+ETag: "2222-57798f04dab0b"    /*cache ийг илүү үр ашигтай хэрэглэх боломж өгнө*/
+Keep-Alive: timeout=5, max=100 /*Тухайн файлын хамгийн багадаа нээлттэй байх хугацаа*/
+Last-Modified: Sun, 07 Oct 2018 00:53:53 GMT  /*Өгөгдлийн хамгийн сүүлд өөрчлөгдсөн огноо*/
+Server: Apache/2.4.37 (Win64) PHP/7.3.1  /*Серверийн мэдээлэл*/
+
